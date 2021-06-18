@@ -7,43 +7,45 @@ html, body{
     background-color: white;
 }
 
-header{
-    background-color: blanchedalmond (255, 255, 255);
+.barra-navegacion {
+    background-color: rgb(255, 255, 255);
     padding-top: 25px;
     padding-bottom: 25px;
     width: 100%;
     box-shadow: 2px 0px 8px 0 rgb(0 0 0 / 20%);
     position: fixed;
     top:0;
-    
+    display: flex;
+    justify-content: flex-end;
 }
 
-.cajalinks{
-    display: flex;
+.contenedor-inicio {
+    display: inline-block;
     margin-right: 60px;
     justify-content: flex-end;
-    
 }
 
-ul{
+
+ul {
     list-style: none;
     margin: 0;
 }
 
 .links{
     text-decoration: none;
-    color:black;
+    color: black;
     margin-left: 14px;
     margin-right: 14px;
     cursor: pointer;
 }
 
+
 a:hover{
-    color: palevioletred;
+    color: violet;
 }
 
 
-#linkcontacto{ 
+#link-contacto{ 
     background-color: violet;
     border-radius: 50px;
     color:white;
@@ -61,7 +63,7 @@ a:hover{
     margin-top: 68px;
 }
 .minombre{
-    font-size: 60px;
+    font-size: 70px;
     color: violet;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin:0;
@@ -227,9 +229,62 @@ h1 {
     margin: 20px;
     width: 350px;
     height: 350px;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 8px;
     border: 2px solid violet;
+}
+
+.blanco:hover{
+    border: 1px solid violet;
+    color: violet;
+}
+
+
+.portfolio {
+    width: 270px;
+    height: 270px;
+    text-align: center;
+}
+
+.generador-memes {
+    width: 270px;
+    height: 270px;
+    text-align: center;
+}
+
+.match3 {
+    width: 270px;
+    height: 270px;
+    text-align: center;
+}
+
+.controlador-gastos {
+    width: 270px;
+    height: 270px;
+    text-align: center;
+}
+
+.administrador-reuniones {
+    width: 270px;
+    height: 270px;
+    text-align: center;
+}
+
+.todo-app {
+    width: 270px;
+    height: 270px;
+    text-align: center;
+}
+
+.buscador-peliculas {
+    width: 270px;
+    height: 270px;
+    text-align: center;
+}
+
+.palabras {
+    text-align: center;
+    font-size: 25px;
 }
 
 
@@ -253,41 +308,7 @@ h1 {
 }
   
 
-.portfolio {
-    display: block;
-    width: 100%;
-    
-}
 
-.generador-memes {
-    width: 70px;
-    height: 70px;
-}
-
-.match3 {
-    display: block;
-    width: 100%;
-}
-
-.controlador-gastos {
-    display: block;
-    width: 100%;
-}
-
-.administrado-reuniones {
-    display: block;
-    width: 100%;
-}
-
-.todo-app {
-    display: block;
-    width: 100%;
-}
-
-.buscador-peliculas {
-    display: block;
-    width: 100%;
-}
 
 
 .itemsproyectos {
@@ -335,13 +356,13 @@ footer{
     cursor: pointer;
 }
 
-.contenedor-iconos {
+.contenedor-iconos-final {
     display: flex;
     justify-content: center;
     margin: 40px;
 }
 
-.contenedor-iconos {
+.contenedor-iconos-final {
     display: flex;
     justify-content: center;
     margin: 40px 0;
