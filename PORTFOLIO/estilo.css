@@ -362,12 +362,12 @@ h1 {
 }
 
 .caja-contacto{
-    background-color: white;
+    background-color: rgb(199, 196, 196);
     width: 70%;
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    border-radius: 1em;
+    border-radius: 2em;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -380,17 +380,18 @@ h1 {
 }
 
 .contactame{
-    width: 45%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
 }
 
-.contactametexto{
+.contactame-texto{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 
 .escribime{
     width: 45%;
@@ -427,7 +428,7 @@ i{
     background-color: violet;
 }
 
-/*seccion formulario*/
+/** seccion Formulario **/
 
 .seccion-escribime h2{
     padding-bottom: 10px;
@@ -512,6 +513,7 @@ textarea{
 
 button{
     outline: none;
+    color: black;
 }
 
 @media (max-width:1100px){
@@ -661,6 +663,7 @@ button{
 }
 
 
+
 /** seccion Footer **/
 
 footer{
@@ -732,7 +735,7 @@ footer{
 
 
 
-.imagenicono{
+.imagen-icono{
     width: 30px;
     height: 30px;
 }
@@ -742,88 +745,10 @@ footer{
     border: 1px solid white;
 }
 
-/*seccion Escribime*/
 
-form {
-    margin: 0 auto;
-    width: 400px;
-}
 
-input {
-    margin-top: 3%;
-    padding-top: 2%;
-    display: block;
-    border-radius: 25px;
-    border: transparent;
-    box-shadow: 0 0 2px 0 #ed64bd;
-    font-size: 15px;
-    margin-left: 2%;
-    width: 90%;
-    padding: 4%;
-}
-input:focus{
-    border: #ed64bd;
-}
-textarea{
-    width: 100%;
-    border-radius: 25px;
-}
-textarea:focus{
-    border: #ed64bd;
-}
-.nombre-apellido {
-    display: flex;
-    text-align: left;
-}
 
-/* .nombreForm {
-    margin-right: 2%;
-    font-weight: 700;
-} */
 
-.email {
-    font-weight: 700;
-    display: block;
-    padding-top: 5%;
-}
-.caja-mensaje{
-    font-weight: 700;
-    padding-top: 5%;
-}
-.containerMensaje{
-    width: 100%;
-    margin: 2%;
-}
-.containerComentario {
-    background-color: rgb(255, 255, 255);
-    width: 95%;
-    border-radius: 25px;
-    border: transparent;
-    box-shadow: 0 0 2px 0 #ed64bd;
-    margin-top: 2%;
-}
-
-.botonEnviar {
-    align-items: center;
-    background-color: #ed64bd;
-    border-color: transparent;
-    border-radius: 50px;
-    box-shadow: 0 0 15px 0 #cccccc;
-    color: white;
-    display: flex;
-    font-size: 20px;
-    justify-content: center;
-    margin-top: 2%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    width: 10%;
-}
-.botonEnviar:hover{
-    background-color: #f42aad;
-    transition: 0.7s;
-}
 
 
     
